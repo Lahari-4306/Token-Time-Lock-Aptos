@@ -1,0 +1,15 @@
+[package]
+name = "TokenTimeLock"
+version = "1.0.0"
+authors = []
+
+[addresses]
+lahari_addr="533906237594a95b7f5872aa3f0ba9fe439d6d50cc644eb488b6364ebee7d236"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
